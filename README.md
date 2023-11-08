@@ -62,6 +62,7 @@ public class TestComponent : ComponentResource
 
 
 </br >
+
 This project uses a local build of the [Pulumi .NET SDK](https://github.com/pulumi/pulumi-dotnet) built from branch `zaid/authoring-providers-from-components`.
 
 It also uses a locally generated .NET SDK of the random provider so we can use its resources as tes examples.
