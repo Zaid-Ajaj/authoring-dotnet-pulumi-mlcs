@@ -1,0 +1,16 @@
+name: testingdotnetmlc
+runtime: yaml
+
+plugins:
+  providers:
+    - name: test
+      path: ./bin/Debug/net7.0/publish
+
+resources:
+  testmlc:
+    type: test:index:Test
+    properties:
+      passwordLength: 20
+
+outputs:
+  length: ${testmlc.passwordResult}
